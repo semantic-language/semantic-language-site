@@ -60,3 +60,10 @@ Schema definitions in the map remain owned by their canonical validator and
 consumers. An absent schema file means no separate schema file is declared; it does
 not mean the runtime interface has no validation. Do not introduce another common
 schema solely to mirror an implementation type.
+
+## Repository identity boundary
+
+`repository.toml` uses the shared closed `repository-identity-v1` schema and this
+repository's physical identity. Organization/content presentation is owned by site
+configuration and GitHub metadata, not an extra field in the repository resolver
+contract. This keeps unrelated repository resolution independent of site content.
