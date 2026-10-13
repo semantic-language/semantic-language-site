@@ -1,0 +1,165 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "semantic-language-site",
+  "serviceId": "semantic-language-public-site",
+  "origin": "https://semantic-language-site.preview.invalid",
+  "audienceScope": "japan",
+  "defaultLocale": "ja",
+  "fallbackLocale": "en",
+  "prefixDefaultLocale": false,
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "Semantic Language",
+      "tagline": "製品の目的と公開仕様を、フィードバックから。",
+      "summary": "Sem Langの紹介ページ候補です。公開仕様と利用者への提供価値を整理し、実運用や非公開sourceを公開したとは扱いません。",
+      "features": [
+        {
+          "id": "product-purpose",
+          "title": "提供価値",
+          "summary": "Sem Langの紹介ページ候補です。公開仕様と利用者への提供価値を整理し、実運用や非公開sourceを公開したとは扱いません。"
+        },
+        {
+          "id": "public-interface",
+          "title": "公開仕様",
+          "summary": "公開する仕様・検証範囲を確定してから提示します。"
+        },
+        {
+          "id": "owner-feedback",
+          "title": "改善の窓口",
+          "summary": "公開前にownerの窓口を確定します。"
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "概要",
+          "summary": "サービスの構成と責務を説明します。",
+          "sections": [
+            {
+              "id": "review-scope",
+              "title": "公開候補の範囲",
+              "body": [
+                "Sem Langの紹介ページ候補です。公開仕様と利用者への提供価値を整理し、実運用や非公開sourceを公開したとは扱いません。"
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "はじめに",
+          "summary": "最小構成でサイトをビルドする手順です。",
+          "sections": [
+            {
+              "id": "review-scope",
+              "title": "公開候補の範囲",
+              "body": [
+                "Sem Langの紹介ページ候補です。公開仕様と利用者への提供価値を整理し、実運用や非公開sourceを公開したとは扱いません。"
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "セキュリティ",
+          "summary": "情報境界と外部操作の方針です。",
+          "sections": [
+            {
+              "id": "review-scope",
+              "title": "公開候補の範囲",
+              "body": [
+                "Sem Langの紹介ページ候補です。公開仕様と利用者への提供価値を整理し、実運用や非公開sourceを公開したとは扱いません。"
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "プライバシー",
+        "summary": "実accountや顧客dataを取得しません。"
+      },
+      "contact": {
+        "label": "お問い合わせ",
+        "summary": "公開前にownerのフィードバック窓口を確認します。"
+      }
+    },
+    "en": {
+      "brand": "Semantic Language",
+      "tagline": "Refine product purpose and public interfaces through feedback.",
+      "summary": "A presentation candidate for Sem Lang. Refine public interfaces and value without exposing private source or claiming live operation.",
+      "features": [
+        {
+          "id": "product-purpose",
+          "title": "Purpose",
+          "summary": "A presentation candidate for Sem Lang. Refine public interfaces and value without exposing private source or claiming live operation."
+        },
+        {
+          "id": "public-interface",
+          "title": "Public interfaces",
+          "summary": "Present approved public interfaces and verification scope."
+        },
+        {
+          "id": "owner-feedback",
+          "title": "Owner feedback",
+          "summary": "Confirm the owner feedback channel before publication."
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Overview",
+          "summary": "Understand the service structure and responsibility.",
+          "sections": [
+            {
+              "id": "review-scope",
+              "title": "Candidate scope",
+              "body": [
+                "A presentation candidate for Sem Lang. Refine public interfaces and value without exposing private source or claiming live operation."
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Getting started",
+          "summary": "Build the site from the minimum consumer files.",
+          "sections": [
+            {
+              "id": "review-scope",
+              "title": "Candidate scope",
+              "body": [
+                "A presentation candidate for Sem Lang. Refine public interfaces and value without exposing private source or claiming live operation."
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Security",
+          "summary": "Review information boundaries and external-action policy.",
+          "sections": [
+            {
+              "id": "review-scope",
+              "title": "Candidate scope",
+              "body": [
+                "A presentation candidate for Sem Lang. Refine public interfaces and value without exposing private source or claiming live operation."
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "Privacy",
+        "summary": "No actual-account or customer data is acquired."
+      },
+      "contact": {
+        "label": "Contact",
+        "summary": "The owner feedback channel will be confirmed before publication."
+      }
+    }
+  }
+}
