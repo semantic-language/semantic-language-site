@@ -1,0 +1,23 @@
+{
+  "schema": "nuxtjp://showcase/v1",
+  "owner": "semantic-language",
+  "observedAt": "2026-10-14T15:09:41Z",
+  "entries": [
+    {
+      "id": "semantic-language-site",
+      "kind": "oss",
+      "name": {
+        "ja": "Semantic Languageの紹介サイト",
+        "en": "Semantic Language presentation site"
+      },
+      "summary": {
+        "ja": "Semantic Languageの紹介とドキュメントを日英で構成する公開サイトのソースです。公開ドメインは未指定です。",
+        "en": "Public source for the bilingual Semantic Language presentation and documentation site. Its release domain is not assigned yet."
+      },
+      "repository": "https://github.com/semantic-language/semantic-language-site",
+      "homepage": "https://github.com/semantic-language/semantic-language-site",
+      "license": "Apache-2.0",
+      "metrics": []
+    }
+  ]
+}
