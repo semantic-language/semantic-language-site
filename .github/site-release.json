@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "repository": "semantic-language/semantic-language-site",
+  "defaultBranch": "main",
+  "requiredWorkflows": [
+    "site.yml",
+    "oss-policy.yml"
+  ],
+  "sites": [
+    {
+      "id": "semantic-language",
+      "version": "0.1.0",
+      "account": "0655772369a7b3425e3398313a36521b",
+      "zone": "9d5835c39877f6b2ca5c04e423c068b4",
+      "zoneName": "taiper.org",
+      "worker": "semantic-language-site",
+      "domain": "sem-lang.taiper.org",
+      "origin": "https://sem-lang.taiper.org",
+      "environment": "site-production-semantic-language",
+      "siteConfig": "sites/semantic-language/site.config.json",
+      "appDirectory": ".",
+      "assetDirectory": ".output/semantic-language/public",
+      "buildKind": "organization"
+    }
+  ]
+}
