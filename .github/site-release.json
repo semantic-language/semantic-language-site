@@ -20,7 +20,8 @@
       "siteConfig": "sites/semantic-language/site.config.json",
       "appDirectory": ".",
       "assetDirectory": ".output/semantic-language/public",
-      "buildKind": "organization"
+      "buildKind": "organization",
+      "deploymentEnabled": false
     }
   ]
 }
