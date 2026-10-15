@@ -2,7 +2,7 @@
   "schema": "nuxtjp://localized-site/site-config/v1",
   "siteId": "semantic-language-site",
   "serviceId": "semantic-language-public-site",
-  "origin": "https://semantic-language-site.preview.invalid",
+  "origin": "https://sem-lang.taiper.org",
   "audienceScope": "japan",
   "defaultLocale": "ja",
   "fallbackLocale": "en",
@@ -14,7 +14,7 @@
   "externalActions": false,
   "content": {
     "ja": {
-      "brand": "Semantic Language",
+      "brand": "sem-lang",
       "tagline": "意味から、使える構造をつくる。",
       "summary": "Sem Langの紹介ページ候補です。公開仕様と利用者への提供価値を整理し、実運用や非公開sourceを公開したとは扱いません。",
       "features": [
@@ -88,7 +88,7 @@
       }
     },
     "en": {
-      "brand": "Semantic Language",
+      "brand": "sem-lang",
       "tagline": "Build useful structures from meaning.",
       "summary": "A presentation candidate for Sem Lang. Refine public interfaces and value without exposing private source or claiming live operation.",
       "features": [

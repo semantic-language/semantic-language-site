@@ -12,15 +12,16 @@
   "scripts": {
     "site": "nuxtjp-localized-site site",
     "validate:content": "nuxtjp-localized-site site check",
-    "test": "nuxtjp-localized-site site check && pnpm run test:dependency-security",
+    "test": "nuxtjp-localized-site site check && pnpm run test:dependency-security && pnpm test:site-structure",
     "typecheck": "nuxtjp-localized-site site typecheck",
     "build": "nuxtjp-localized-site site build",
     "dev": "nuxtjp-localized-site site dev",
     "preview": "nuxtjp-localized-site site preview",
-    "test:dependency-security": "node --test scripts/dependency-security.check.cjs"
+    "test:dependency-security": "node --test scripts/dependency-security.check.cjs",
+    "test:site-structure": "node site/check.mjs"
   },
   "dependencies": {
-    "@nuxtjp/localized-site": "0.2.3",
+    "@nuxtjp/localized-site": "0.2.6",
     "nuxt": "4.6.0",
     "vue": "3.5.43"
   },
