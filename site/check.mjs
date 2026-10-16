@@ -24,6 +24,7 @@ export function validateContent(data) {
       else { const url = new URL(item.href); assert.equal(url.protocol, 'https:'); assert.equal(url.username + url.password, '') }
       if (item.icon) assert.match(item.icon, /^\/brand\/[a-zA-Z0-9/_.-]+\.(svg|png)$/)
     }
+    assert.doesNotMatch(JSON.stringify(content), /Hatter|iHAT|\bHAT\b/, 'sem-lang content must describe semantics rather than the HAT installer')
     content.navigation.forEach(checkLink)
     if (content.secondaryAction) checkLink(content.secondaryAction)
     content.resources.forEach(item => { checkLink(item); assert.ok(item.category && item.summary) })

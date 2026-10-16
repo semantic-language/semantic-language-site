@@ -12,7 +12,7 @@
       "icon": "/brand/icon.png",
       "navigation": [
         {
-          "title": "機能",
+          "title": "概念",
           "href": "/features"
         },
         {
@@ -20,35 +20,57 @@
           "href": "/use-cases"
         },
         {
-          "title": "ドキュメント",
+          "title": "ガイド",
           "href": "/docs"
         },
         {
-          "title": "ダウンロード",
+          "title": "導入・配布情報",
           "href": "/download"
-        },
-        {
-          "title": "読みもの",
-          "href": "/journal"
         }
       ],
       "pages": [
         {
           "path": "/docs",
-          "title": "ガイドとドキュメント",
-          "summary": "機能と使い方を紹介するガイド。",
+          "title": "sem-langの概念と利用ガイド",
+          "summary": "意味の定義、文脈、解釈結果と診断を確認するための入口です。",
           "sections": [
             {
-              "title": "はじめの一歩",
-              "text": "目的を確認し、必要な機能から始めましょう。",
+              "title": "意味を定義する",
+              "text": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
               "links": [
                 {
-                  "title": "導入ガイド",
-                  "href": "/docs/getting-started"
-                },
+                  "title": "概念を読む",
+                  "href": "/features/roles"
+                }
+              ]
+            },
+            {
+              "title": "文脈を明示する",
+              "text": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
+              "links": [
                 {
-                  "title": "安全に使うために",
-                  "href": "/security"
+                  "title": "概念を読む",
+                  "href": "/features/local-first"
+                }
+              ]
+            },
+            {
+              "title": "解釈結果と診断を扱う",
+              "text": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
+              "links": [
+                {
+                  "title": "概念を読む",
+                  "href": "/features/permissions"
+                }
+              ]
+            },
+            {
+              "title": "提供状況を確認する",
+              "text": "公開パッケージの提供状況と利用条件は、導入ページで確認できます。",
+              "links": [
+                {
+                  "title": "導入・配布情報",
+                  "href": "/download"
                 }
               ]
             }
@@ -60,27 +82,52 @@
         },
         {
           "path": "/docs/getting-started",
-          "title": "はじめる前に、道筋をつかむ。",
-          "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
+          "title": "sem-langを理解するために",
+          "summary": "意味を扱うための定義、文脈、解釈結果と診断から確認します。",
           "sections": [
             {
-              "title": "目的を選ぶ",
-              "text": "取り組む内容を機能や用途のページで確認します。",
+              "title": "意味を定義する",
+              "text": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
               "links": [
                 {
-                  "title": "機能を見る",
-                  "href": "/features"
+                  "title": "概念を読む",
+                  "href": "/features/roles"
                 }
               ]
             },
             {
-              "title": "利用条件を確認する",
-              "text": "導入するソフトウェアの対応環境、ライセンス、提供版を確認してください。",
-              "links": []
+              "title": "文脈を明示する",
+              "text": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
+              "links": [
+                {
+                  "title": "概念を読む",
+                  "href": "/features/local-first"
+                }
+              ]
+            },
+            {
+              "title": "解釈結果と診断を扱う",
+              "text": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
+              "links": [
+                {
+                  "title": "概念を読む",
+                  "href": "/features/permissions"
+                }
+              ]
+            },
+            {
+              "title": "提供状況を確認する",
+              "text": "公開パッケージの提供状況と利用条件は、導入ページで確認できます。",
+              "links": [
+                {
+                  "title": "導入・配布情報",
+                  "href": "/download"
+                }
+              ]
             }
           ],
           "kind": "page",
-          "label": "はじめる前に、道筋をつかむ。",
+          "label": "はじめに",
           "category": "",
           "status": "published"
         },
@@ -171,37 +218,34 @@
           "category": "",
           "sections": [
             {
-              "title": "できること",
-              "text": "目的から、機能と使い方をご覧ください。",
+              "title": "意味・文脈・解釈結果を分ける",
+              "text": "情報をどう解釈したか、何が未解決かを明示するための言語基盤です。",
               "links": [
                 {
-                  "title": "役割を選ぶ",
-                  "href": "/features/roles",
-                  "summary": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。"
+                  "title": "意味を定義する",
+                  "href": "/features/roles"
                 },
                 {
-                  "title": "手元で使う",
-                  "href": "/features/local-first",
-                  "summary": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。"
+                  "title": "文脈を明示する",
+                  "href": "/features/local-first"
                 },
                 {
-                  "title": "実行を確かめる",
-                  "href": "/features/permissions",
-                  "summary": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。"
+                  "title": "解釈結果と診断を扱う",
+                  "href": "/features/permissions"
                 }
               ]
             },
             {
-              "title": "使い始める前に",
-              "text": "利用ガイドと、提供される配布版の情報をご確認ください。",
+              "title": "Taiperの情報整理を支える",
+              "text": "sem-langは意味を扱う基盤、Taiperは情報整理と人の判断を扱います。AIの活用方針と利用場面はTaiperで紹介しています。",
               "links": [
                 {
-                  "title": "ガイドを読む",
-                  "href": "/docs"
+                  "title": "Taiperの考え方",
+                  "href": "https://taiper.org"
                 },
                 {
-                  "title": "配布について",
-                  "href": "/download"
+                  "title": "sem-langのガイド",
+                  "href": "/docs"
                 }
               ]
             }
@@ -217,35 +261,32 @@
           "category": "",
           "sections": [
             {
-              "title": "役割を選ぶ",
-              "text": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。",
+              "title": "意味を定義する",
+              "text": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
               "links": [
                 {
-                  "title": "役割を選ぶ",
-                  "href": "/features/roles",
-                  "summary": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。"
+                  "title": "詳しく読む",
+                  "href": "/features/roles"
                 }
               ]
             },
             {
-              "title": "手元で使う",
-              "text": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。",
+              "title": "文脈を明示する",
+              "text": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
               "links": [
                 {
-                  "title": "手元で使う",
-                  "href": "/features/local-first",
-                  "summary": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。"
+                  "title": "詳しく読む",
+                  "href": "/features/local-first"
                 }
               ]
             },
             {
-              "title": "実行を確かめる",
-              "text": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。",
+              "title": "解釈結果と診断を扱う",
+              "text": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
               "links": [
                 {
-                  "title": "実行を確かめる",
-                  "href": "/features/permissions",
-                  "summary": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。"
+                  "title": "詳しく読む",
+                  "href": "/features/permissions"
                 }
               ]
             }
@@ -253,19 +294,19 @@
         },
         {
           "path": "/features/roles",
-          "title": "役割を選ぶ",
-          "label": "役割を選ぶ",
-          "summary": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。",
+          "title": "意味を定義する",
+          "label": "意味を定義する",
+          "summary": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "考え方",
-              "text": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。",
+              "title": "意味を定義する",
+              "text": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
               "links": [
                 {
-                  "title": "使い方を読む",
+                  "title": "概念と利用ガイド",
                   "href": "/docs"
                 }
               ]
@@ -274,19 +315,19 @@
         },
         {
           "path": "/features/local-first",
-          "title": "手元で使う",
-          "label": "手元で使う",
-          "summary": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。",
+          "title": "文脈を明示する",
+          "label": "文脈を明示する",
+          "summary": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "考え方",
-              "text": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。",
+              "title": "文脈を明示する",
+              "text": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
               "links": [
                 {
-                  "title": "使い方を読む",
+                  "title": "概念と利用ガイド",
                   "href": "/docs"
                 }
               ]
@@ -295,19 +336,19 @@
         },
         {
           "path": "/features/permissions",
-          "title": "実行を確かめる",
-          "label": "実行を確かめる",
-          "summary": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。",
+          "title": "解釈結果と診断を扱う",
+          "label": "解釈結果と診断を扱う",
+          "summary": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "考え方",
-              "text": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。",
+              "title": "解釈結果と診断を扱う",
+              "text": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
               "links": [
                 {
-                  "title": "使い方を読む",
+                  "title": "概念と利用ガイド",
                   "href": "/docs"
                 }
               ]
@@ -318,41 +359,28 @@
           "path": "/use-cases",
           "title": "活用シーン",
           "label": "活用シーン",
-          "summary": "情報と作業の目的に合わせて考える。",
+          "summary": "情報の意味、根拠、解釈の状態を明らかにするための活用を紹介します。",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "役割を選ぶ",
-              "text": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。",
+              "title": "根拠と解釈を区別する",
+              "text": "観測された情報と、文脈に基づく解釈を分けて扱うための基盤として利用を検討できます。",
               "links": [
                 {
-                  "title": "役割を選ぶ",
-                  "href": "/features/roles",
-                  "summary": "作業の目的と必要な機能をHATとして扱い、役割の境界を確認する設計です。"
+                  "title": "文脈の扱い",
+                  "href": "/features/local-first"
                 }
               ]
             },
             {
-              "title": "手元で使う",
-              "text": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。",
+              "title": "未解決の判断を残す",
+              "text": "解釈が確定しない状態を、操作の許可や確定した事実として扱わずに表現します。",
               "links": [
                 {
-                  "title": "手元で使う",
-                  "href": "/features/local-first",
-                  "summary": "CLIをローカルに置き、iHATを通して必要なHATの配布版を取得・検証する構成です。"
-                }
-              ]
-            },
-            {
-              "title": "実行を確かめる",
-              "text": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。",
-              "links": [
-                {
-                  "title": "実行を確かめる",
-                  "href": "/features/permissions",
-                  "summary": "インストールと操作の許可を分け、対象と権限を確認して作業を進める設計です。"
+                  "title": "結果と診断",
+                  "href": "/features/permissions"
                 }
               ]
             }
@@ -368,11 +396,11 @@
           "category": "",
           "sections": [
             {
-              "title": "提供状況",
-              "text": "一般向けの配布を準備しています。利用可能な版と対応環境を、配布開始時に案内します。",
+              "title": "公開配布の状況",
+              "text": "このサイトではsem-langの公開インストーラーを提供していません。公開配布が整い次第、対応環境と利用手順をここで案内します。",
               "links": [
                 {
-                  "title": "利用ガイド",
+                  "title": "概念とガイド",
                   "href": "/docs"
                 }
               ]
@@ -380,7 +408,11 @@
           ]
         }
       ],
-      "resources": []
+      "resources": [],
+      "secondaryAction": {
+        "title": "Taiperでの活用",
+        "href": "https://taiper.org"
+      }
     },
     "en": {
       "brand": "sem-lang",
@@ -391,7 +423,7 @@
       "icon": "/brand/icon.png",
       "navigation": [
         {
-          "title": "Features",
+          "title": "Concepts",
           "href": "/features"
         },
         {
@@ -399,35 +431,57 @@
           "href": "/use-cases"
         },
         {
-          "title": "Docs",
+          "title": "Guide",
           "href": "/docs"
         },
         {
-          "title": "Download",
+          "title": "Availability",
           "href": "/download"
-        },
-        {
-          "title": "Journal",
-          "href": "/journal"
         }
       ],
       "pages": [
         {
           "path": "/docs",
-          "title": "Guides and documentation",
-          "summary": "Guides to capabilities and usage.",
+          "title": "sem-lang concepts and usage",
+          "summary": "Explore definitions, context, semantic outcomes and diagnostics.",
           "sections": [
             {
-              "title": "Getting started",
-              "text": "Start with your goal and the capabilities you need.",
+              "title": "Define meaning",
+              "text": "A foundation for explicit definitions of words and expressions used during interpretation.",
               "links": [
                 {
-                  "title": "Getting started",
-                  "href": "/docs/getting-started"
-                },
+                  "title": "Read about the concept",
+                  "href": "/features/roles"
+                }
+              ]
+            },
+            {
+              "title": "Make context explicit",
+              "text": "Make the subject, adopted definitions, evidence and evaluation instant explicit.",
+              "links": [
                 {
-                  "title": "Security guide",
-                  "href": "/security"
+                  "title": "Read about the concept",
+                  "href": "/features/local-first"
+                }
+              ]
+            },
+            {
+              "title": "Inspect outcomes and diagnostics",
+              "text": "Distinguish resolved outcomes from cases needing further resolution. A semantic outcome does not authorize an external operation.",
+              "links": [
+                {
+                  "title": "Read about the concept",
+                  "href": "/features/permissions"
+                }
+              ]
+            },
+            {
+              "title": "Check availability",
+              "text": "Check the setup page for public package availability and usage conditions.",
+              "links": [
+                {
+                  "title": "Setup and distribution",
+                  "href": "/download"
                 }
               ]
             }
@@ -439,27 +493,52 @@
         },
         {
           "path": "/docs/getting-started",
-          "title": "Find a path before getting started.",
-          "summary": "A guide to capabilities, use cases and data boundaries.",
+          "title": "Start understanding sem-lang",
+          "summary": "Start with semantic definitions, context, outcomes and diagnostics.",
           "sections": [
             {
-              "title": "Choose a goal",
-              "text": "Explore the capability or use-case pages for the work you have in mind.",
+              "title": "Define meaning",
+              "text": "A foundation for explicit definitions of words and expressions used during interpretation.",
               "links": [
                 {
-                  "title": "Explore features",
-                  "href": "/features"
+                  "title": "Read about the concept",
+                  "href": "/features/roles"
                 }
               ]
             },
             {
-              "title": "Review usage conditions",
-              "text": "Check the supported environment, license and available release of the software you select.",
-              "links": []
+              "title": "Make context explicit",
+              "text": "Make the subject, adopted definitions, evidence and evaluation instant explicit.",
+              "links": [
+                {
+                  "title": "Read about the concept",
+                  "href": "/features/local-first"
+                }
+              ]
+            },
+            {
+              "title": "Inspect outcomes and diagnostics",
+              "text": "Distinguish resolved outcomes from cases needing further resolution. A semantic outcome does not authorize an external operation.",
+              "links": [
+                {
+                  "title": "Read about the concept",
+                  "href": "/features/permissions"
+                }
+              ]
+            },
+            {
+              "title": "Check availability",
+              "text": "Check the setup page for public package availability and usage conditions.",
+              "links": [
+                {
+                  "title": "Setup and distribution",
+                  "href": "/download"
+                }
+              ]
             }
           ],
           "kind": "page",
-          "label": "Find a path before getting started.",
+          "label": "Getting started",
           "category": "",
           "status": "published"
         },
@@ -550,37 +629,34 @@
           "category": "",
           "sections": [
             {
-              "title": "Capabilities",
-              "text": "Explore capabilities and usage by purpose.",
+              "title": "Separate meaning, context and outcomes",
+              "text": "A language foundation for making interpretations and unresolved questions explicit.",
               "links": [
                 {
-                  "title": "Choose a role",
-                  "href": "/features/roles",
-                  "summary": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries."
+                  "title": "Define meaning",
+                  "href": "/features/roles"
                 },
                 {
-                  "title": "Work locally",
-                  "href": "/features/local-first",
-                  "summary": "Keep the CLI local and acquire and verify selected HAT releases through iHAT."
+                  "title": "Make context explicit",
+                  "href": "/features/local-first"
                 },
                 {
-                  "title": "Review execution",
-                  "href": "/features/permissions",
-                  "summary": "Keep installation separate from authorization and review the targets and permissions of work."
+                  "title": "Inspect outcomes and diagnostics",
+                  "href": "/features/permissions"
                 }
               ]
             },
             {
-              "title": "Before getting started",
-              "text": "Read the guides and check available distributions.",
+              "title": "A foundation for information organization in Taiper",
+              "text": "sem-lang provides the semantic foundation; Taiper organizes information and human decisions. Taiper presents its AI policy and use cases.",
               "links": [
                 {
-                  "title": "Read the guides",
-                  "href": "/docs"
+                  "title": "Explore Taiper",
+                  "href": "https://taiper.org"
                 },
                 {
-                  "title": "Distributions",
-                  "href": "/download"
+                  "title": "sem-lang guide",
+                  "href": "/docs"
                 }
               ]
             }
@@ -596,35 +672,32 @@
           "category": "",
           "sections": [
             {
-              "title": "Choose a role",
-              "text": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries.",
+              "title": "Define meaning",
+              "text": "A foundation for explicit definitions of words and expressions used during interpretation.",
               "links": [
                 {
-                  "title": "Choose a role",
-                  "href": "/features/roles",
-                  "summary": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries."
+                  "title": "Explore the concept",
+                  "href": "/features/roles"
                 }
               ]
             },
             {
-              "title": "Work locally",
-              "text": "Keep the CLI local and acquire and verify selected HAT releases through iHAT.",
+              "title": "Make context explicit",
+              "text": "Make the subject, adopted definitions, evidence and evaluation instant explicit.",
               "links": [
                 {
-                  "title": "Work locally",
-                  "href": "/features/local-first",
-                  "summary": "Keep the CLI local and acquire and verify selected HAT releases through iHAT."
+                  "title": "Explore the concept",
+                  "href": "/features/local-first"
                 }
               ]
             },
             {
-              "title": "Review execution",
-              "text": "Keep installation separate from authorization and review the targets and permissions of work.",
+              "title": "Inspect outcomes and diagnostics",
+              "text": "Distinguish resolved outcomes from cases needing further resolution. A semantic outcome does not authorize an external operation.",
               "links": [
                 {
-                  "title": "Review execution",
-                  "href": "/features/permissions",
-                  "summary": "Keep installation separate from authorization and review the targets and permissions of work."
+                  "title": "Explore the concept",
+                  "href": "/features/permissions"
                 }
               ]
             }
@@ -632,19 +705,19 @@
         },
         {
           "path": "/features/roles",
-          "title": "Choose a role",
-          "label": "Choose a role",
-          "summary": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries.",
+          "title": "Define meaning",
+          "label": "Define meaning",
+          "summary": "A foundation for explicit definitions of words and expressions used during interpretation.",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "The approach",
-              "text": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries.",
+              "title": "Define meaning",
+              "text": "A foundation for explicit definitions of words and expressions used during interpretation.",
               "links": [
                 {
-                  "title": "Read the guide",
+                  "title": "Concepts and usage",
                   "href": "/docs"
                 }
               ]
@@ -653,19 +726,19 @@
         },
         {
           "path": "/features/local-first",
-          "title": "Work locally",
-          "label": "Work locally",
-          "summary": "Keep the CLI local and acquire and verify selected HAT releases through iHAT.",
+          "title": "Make context explicit",
+          "label": "Make context explicit",
+          "summary": "Make the subject, adopted definitions, evidence and evaluation instant explicit.",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "The approach",
-              "text": "Keep the CLI local and acquire and verify selected HAT releases through iHAT.",
+              "title": "Make context explicit",
+              "text": "Make the subject, adopted definitions, evidence and evaluation instant explicit.",
               "links": [
                 {
-                  "title": "Read the guide",
+                  "title": "Concepts and usage",
                   "href": "/docs"
                 }
               ]
@@ -674,19 +747,19 @@
         },
         {
           "path": "/features/permissions",
-          "title": "Review execution",
-          "label": "Review execution",
-          "summary": "Keep installation separate from authorization and review the targets and permissions of work.",
+          "title": "Inspect outcomes and diagnostics",
+          "label": "Inspect outcomes and diagnostics",
+          "summary": "Distinguish resolved outcomes from cases needing further resolution. A semantic outcome does not authorize an external operation.",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "The approach",
-              "text": "Keep installation separate from authorization and review the targets and permissions of work.",
+              "title": "Inspect outcomes and diagnostics",
+              "text": "Distinguish resolved outcomes from cases needing further resolution. A semantic outcome does not authorize an external operation.",
               "links": [
                 {
-                  "title": "Read the guide",
+                  "title": "Concepts and usage",
                   "href": "/docs"
                 }
               ]
@@ -697,41 +770,28 @@
           "path": "/use-cases",
           "title": "Use cases",
           "label": "Use cases",
-          "summary": "Start with the purpose of information and work.",
+          "summary": "Explore making meaning, evidence and interpretation status explicit.",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "Choose a role",
-              "text": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries.",
+              "title": "Distinguish evidence from interpretation",
+              "text": "Explore the foundation for separating observed information from contextual interpretation.",
               "links": [
                 {
-                  "title": "Choose a role",
-                  "href": "/features/roles",
-                  "summary": "Use HATs to describe the purpose and capabilities of work with explicit role boundaries."
+                  "title": "Working with context",
+                  "href": "/features/local-first"
                 }
               ]
             },
             {
-              "title": "Work locally",
-              "text": "Keep the CLI local and acquire and verify selected HAT releases through iHAT.",
+              "title": "Keep unresolved questions visible",
+              "text": "Represent unresolved interpretation without treating it as permission to execute or an established fact.",
               "links": [
                 {
-                  "title": "Work locally",
-                  "href": "/features/local-first",
-                  "summary": "Keep the CLI local and acquire and verify selected HAT releases through iHAT."
-                }
-              ]
-            },
-            {
-              "title": "Review execution",
-              "text": "Keep installation separate from authorization and review the targets and permissions of work.",
-              "links": [
-                {
-                  "title": "Review execution",
-                  "href": "/features/permissions",
-                  "summary": "Keep installation separate from authorization and review the targets and permissions of work."
+                  "title": "Outcomes and diagnostics",
+                  "href": "/features/permissions"
                 }
               ]
             }
@@ -747,11 +807,11 @@
           "category": "",
           "sections": [
             {
-              "title": "Availability",
-              "text": "Public distributions are being prepared. Available releases and supported environments will be listed when released.",
+              "title": "Public distribution status",
+              "text": "This site does not currently provide a public sem-lang installer. Supported environments and setup instructions will be listed here when public distribution is available.",
               "links": [
                 {
-                  "title": "Usage guide",
+                  "title": "Concepts and guide",
                   "href": "/docs"
                 }
               ]
@@ -759,7 +819,11 @@
           ]
         }
       ],
-      "resources": []
+      "resources": [],
+      "secondaryAction": {
+        "title": "Explore Taiper",
+        "href": "https://taiper.org"
+      }
     }
   }
 }
