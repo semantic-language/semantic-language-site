@@ -1,1 +1,5 @@
 Semantic Language public-site candidate. New presentation scaffold; no private Sem Lang source or history. Uses the NuxtJP localized-site public module under its own LICENSE/NOTICE.
+
+Original copyright and license text for source-controlled dependency patches
+is retained in third-party/LICENSES/; see third-party/README.md and
+third-party/patch-attribution.json for original source and change provenance.
