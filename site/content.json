@@ -8,7 +8,7 @@
       "caption": "",
       "origin": "https://sem-lang.taiper.org",
       "locale": "ja",
-      "accent": "#007baa",
+      "accent": "#a34c28",
       "icon": "/brand/icon.png",
       "navigation": [
         {
@@ -20,11 +20,11 @@
           "href": "/use-cases"
         },
         {
-          "title": "ガイド",
-          "href": "/docs"
+          "title": "具体例",
+          "href": "/docs/getting-started"
         },
         {
-          "title": "導入・配布情報",
+          "title": "公開ソース",
           "href": "/download"
         }
       ],
@@ -49,7 +49,7 @@
               "text": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
               "links": [
                 {
-                  "title": "概念を読む",
+                  "title": "意味を定義する",
                   "href": "/features/roles"
                 }
               ]
@@ -59,7 +59,7 @@
               "text": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
               "links": [
                 {
-                  "title": "概念を読む",
+                  "title": "文脈を明示する",
                   "href": "/features/local-first"
                 }
               ]
@@ -69,7 +69,7 @@
               "text": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
               "links": [
                 {
-                  "title": "概念を読む",
+                  "title": "解釈結果と診断を扱う",
                   "href": "/features/permissions"
                 }
               ]
@@ -260,7 +260,7 @@
               "text": "語や表現の意味を明示し、解釈に使う定義を扱うための基盤です。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "意味を定義する",
                   "href": "/features/roles"
                 }
               ]
@@ -270,7 +270,7 @@
               "text": "解釈に使う対象、採用する定義、根拠、時点を明らかにして情報を扱います。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "文脈を明示する",
                   "href": "/features/local-first"
                 }
               ]
@@ -280,7 +280,7 @@
               "text": "意味が解決した結果と追加の判断が必要な状態を区別します。解釈結果そのものは外部操作の許可にはなりません。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "解釈結果と診断を扱う",
                   "href": "/features/permissions"
                 }
               ]
@@ -383,17 +383,40 @@
         },
         {
           "path": "/download",
-          "title": "ダウンロードと導入",
-          "label": "ダウンロードと導入",
-          "summary": "使い方と配布情報を確認する。",
+          "title": "公開ソースと利用条件",
+          "label": "公開ソースと利用条件",
+          "summary": "公開ソースからsem-langを調べ、開発に取り入れる。",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "公開配布の準備中",
-              "text": "現在、このサイトではsem-langの公開インストーラーを提供していません。公開時に対応環境、取得先、導入手順と検証方法を掲載します。",
-              "links": []
+              "title": "公開ソースを取得する",
+              "text": "公開リポジトリとソース版v0.10.0を参照できます。これはソース配布です。このサイトではビルド済みインストーラーやレジストリへのパッケージ公開を案内していません。",
+              "links": [
+                {
+                  "href": "https://github.com/semantic-language/sem-lang/releases/tag/v0.10.0",
+                  "title": "ソース版v0.10.0"
+                },
+                {
+                  "href": "https://github.com/semantic-language/sem-lang",
+                  "title": "リポジトリと開発手順"
+                }
+              ]
+            },
+            {
+              "title": "ライセンスを確認する",
+              "text": "現行のプロジェクト独自部分はMPL-2.0です。第三者コードと既存の許諾は、それぞれのLICENSE・NOTICEに従います。対象ファイルの条件を確認してください。",
+              "links": [
+                {
+                  "href": "https://github.com/semantic-language/sem-lang/blob/main/LICENSE",
+                  "title": "MPL-2.0"
+                },
+                {
+                  "href": "https://github.com/semantic-language/sem-lang/blob/main/NOTICE",
+                  "title": "NOTICE"
+                }
+              ]
             }
           ]
         }
@@ -409,7 +432,7 @@
       "caption": "",
       "origin": "https://sem-lang.taiper.org",
       "locale": "en",
-      "accent": "#007baa",
+      "accent": "#a34c28",
       "icon": "/brand/icon.png",
       "navigation": [
         {
@@ -421,11 +444,11 @@
           "href": "/use-cases"
         },
         {
-          "title": "Guide",
-          "href": "/docs"
+          "title": "Example",
+          "href": "/docs/getting-started"
         },
         {
-          "title": "Availability",
+          "title": "Source",
           "href": "/download"
         }
       ],
@@ -784,17 +807,40 @@
         },
         {
           "path": "/download",
-          "title": "Downloads and installation",
-          "label": "Downloads and installation",
-          "summary": "Find usage and distribution information.",
+          "title": "Source and licensing",
+          "label": "Source and licensing",
+          "summary": "Explore sem-lang’s public source and use it in your development.",
           "kind": "page",
           "status": "published",
           "category": "",
           "sections": [
             {
-              "title": "Public downloads are being prepared",
-              "text": "This site does not currently offer a public sem-lang installer. Supported environments, download locations, setup instructions and verification steps will be listed when available.",
-              "links": []
+              "title": "Get the public source",
+              "text": "The public repository and source release v0.10.0 are available. This is a source distribution; this site does not offer a prebuilt installer or claim registry package publication.",
+              "links": [
+                {
+                  "href": "https://github.com/semantic-language/sem-lang/releases/tag/v0.10.0",
+                  "title": "Source release v0.10.0"
+                },
+                {
+                  "href": "https://github.com/semantic-language/sem-lang",
+                  "title": "Repository and development instructions"
+                }
+              ]
+            },
+            {
+              "title": "Review the license",
+              "text": "Current project-owned portions use MPL-2.0. Third-party code and prior grants retain their own LICENSE and NOTICE terms. Review the terms for the files you use.",
+              "links": [
+                {
+                  "href": "https://github.com/semantic-language/sem-lang/blob/main/LICENSE",
+                  "title": "MPL-2.0"
+                },
+                {
+                  "href": "https://github.com/semantic-language/sem-lang/blob/main/NOTICE",
+                  "title": "NOTICE"
+                }
+              ]
             }
           ]
         }
