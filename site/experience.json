@@ -1,0 +1,100 @@
+{
+  "ja": {
+    "category": "意味を扱うための言語",
+    "primary": {
+      "href": "/docs/getting-started",
+      "title": "具体例から理解する"
+    },
+    "secondary": {
+      "href": "/download",
+      "title": "公開ソースを見る"
+    },
+    "pathsTitle": "何をお探しですか？",
+    "paths": [
+      {
+        "href": "/docs/getting-started",
+        "title": "まず具体例を見たい",
+        "summary": "情報と解釈を分けて考える"
+      },
+      {
+        "href": "/use-cases",
+        "title": "使いどころを知りたい",
+        "summary": "文脈を共有する場面を知る"
+      },
+      {
+        "href": "/download",
+        "title": "開発に取り入れたい",
+        "summary": "公開ソースとMPL-2.0を確認"
+      }
+    ],
+    "preview": {
+      "kind": "meaning",
+      "label": "使い方のイメージ",
+      "title": "「完了」の意味を、揃える。",
+      "rows": [
+        {
+          "label": "情報",
+          "detail": "実装に対応する試験が通った"
+        },
+        {
+          "label": "文脈",
+          "detail": "公開・配備の確認は別に扱う"
+        },
+        {
+          "label": "解釈",
+          "detail": "実装完了。配備は未確認。"
+        }
+      ],
+      "outcome": "同じ言葉から、同じ理解へ。"
+    }
+  },
+  "en": {
+    "category": "A language for meaning",
+    "primary": {
+      "href": "/docs/getting-started",
+      "title": "Explore an example"
+    },
+    "secondary": {
+      "href": "/download",
+      "title": "Get the source"
+    },
+    "pathsTitle": "What brings you here?",
+    "paths": [
+      {
+        "href": "/docs/getting-started",
+        "title": "Start with an example",
+        "summary": "Separate information from interpretation"
+      },
+      {
+        "href": "/use-cases",
+        "title": "Explore use cases",
+        "summary": "Discover where shared context matters"
+      },
+      {
+        "href": "/download",
+        "title": "Build with sem-lang",
+        "summary": "Find the public source and MPL-2.0"
+      }
+    ],
+    "preview": {
+      "kind": "meaning",
+      "label": "Workflow illustration",
+      "title": "Make “complete” explicit.",
+      "rows": [
+        {
+          "label": "Information",
+          "detail": "Tests for the implementation passed"
+        },
+        {
+          "label": "Context",
+          "detail": "Publication and deployment are separate"
+        },
+        {
+          "label": "Interpretation",
+          "detail": "Implementation complete; deployment unverified"
+        }
+      ],
+      "outcome": "Shared words. Explicit understanding."
+    }
+  }
+}
