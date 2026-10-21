@@ -29,7 +29,7 @@
     ],
     "preview": {
       "kind": "meaning",
-      "label": "使い方のイメージ",
+      "label": "意味の具体例",
       "title": "「完了」の意味を、揃える。",
       "rows": [
         {
@@ -78,7 +78,7 @@
     ],
     "preview": {
       "kind": "meaning",
-      "label": "Workflow illustration",
+      "label": "A meaning example",
       "title": "Make “complete” explicit.",
       "rows": [
         {
