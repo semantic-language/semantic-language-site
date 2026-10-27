@@ -21,7 +21,8 @@
       "appDirectory": ".",
       "assetDirectory": ".output/semantic-language/public",
       "buildKind": "organization",
-      "deploymentEnabled": true
+      "deploymentEnabled": true,
+      "documentDirectory": "site"
     }
   ]
 }
