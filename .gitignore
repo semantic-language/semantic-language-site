@@ -6,3 +6,6 @@ registration/
 
 # Static output alias created by Nuxt generation.
 /dist
+
+# Generated from the current Markdown/MDC sources; never a second authoring source.
+**/.generated-documents/
