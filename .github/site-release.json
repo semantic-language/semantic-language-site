@@ -9,7 +9,7 @@
   "sites": [
     {
       "id": "semantic-language",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "account": "0655772369a7b3425e3398313a36521b",
       "zone": "9d5835c39877f6b2ca5c04e423c068b4",
       "zoneName": "taiper.org",
@@ -21,7 +21,8 @@
       "appDirectory": ".",
       "assetDirectory": ".output/semantic-language/public",
       "buildKind": "organization",
-      "deploymentEnabled": true
+      "deploymentEnabled": true,
+      "documentDirectory": "site"
     }
   ]
 }

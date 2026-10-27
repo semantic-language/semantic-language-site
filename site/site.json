@@ -1,0 +1,101 @@
+{
+  "siteId": "semantic-language",
+  "origin": "https://sem-lang.taiper.org",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "sem-lang",
+      "caption": "",
+      "origin": "https://sem-lang.taiper.org",
+      "locale": "ja",
+      "accent": "#a34c28",
+      "icon": "/brand/icon.png",
+      "navigation": [
+        {
+          "title": "概念",
+          "href": "/features"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "具体例",
+          "href": "/docs/getting-started"
+        },
+        {
+          "title": "公開ソース",
+          "href": "/download"
+        }
+      ],
+      "resources": [],
+      "secondaryAction": {
+        "title": "Taiperでの活用",
+        "href": "https://taiper.org"
+      },
+      "pageOrder": [
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap",
+        "/",
+        "/features",
+        "/features/roles",
+        "/features/local-first",
+        "/features/permissions",
+        "/use-cases",
+        "/download"
+      ]
+    },
+    "en": {
+      "brand": "sem-lang",
+      "caption": "",
+      "origin": "https://sem-lang.taiper.org",
+      "locale": "en",
+      "accent": "#a34c28",
+      "icon": "/brand/icon.png",
+      "navigation": [
+        {
+          "title": "Concepts",
+          "href": "/features"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "Example",
+          "href": "/docs/getting-started"
+        },
+        {
+          "title": "Source",
+          "href": "/download"
+        }
+      ],
+      "resources": [],
+      "secondaryAction": {
+        "title": "Explore Taiper",
+        "href": "https://taiper.org"
+      },
+      "pageOrder": [
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap",
+        "/",
+        "/features",
+        "/features/roles",
+        "/features/local-first",
+        "/features/permissions",
+        "/use-cases",
+        "/download"
+      ]
+    }
+  }
+}
