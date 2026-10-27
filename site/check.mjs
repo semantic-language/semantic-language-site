@@ -27,7 +27,9 @@ export function validateContent(data) {
       else { const url = new URL(item.href); assert.equal(url.protocol, 'https:'); assert.equal(url.username + url.password, '') }
       if (item.icon) assert.match(item.icon, /^\/brand\/[a-zA-Z0-9/_.-]+\.(svg|png)$/)
     }
-    assert.doesNotMatch(JSON.stringify(content), /Hatter|iHAT|\bHAT\b/, 'sem-lang content must describe semantics rather than the HAT installer')
+    assert.doesNotMatch(JSON.stringify(content), /Hatter|iHAT/, 'sem-lang content must not advertise the HAT installer')
+    const productContent = { ...content, pages: content.pages.filter(page => !['/contact', '/privacy'].includes(page.path)) }
+    assert.doesNotMatch(JSON.stringify(productContent), /\bHAT\b/, 'product content describes semantics; only legal/contact pages name HAT Inc. as controller')
     validateNavigation(content)
     content.navigation.forEach(checkLink)
     if (content.secondaryAction) checkLink(content.secondaryAction)

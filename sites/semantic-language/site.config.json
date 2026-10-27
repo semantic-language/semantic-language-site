@@ -80,11 +80,11 @@
       },
       "privacy": {
         "label": "プライバシー",
-        "summary": "実accountや顧客dataを取得しません。"
+        "summary": "お問い合わせ・情報提供には株式会社HATの共通プライバシーポリシーを適用します。"
       },
       "contact": {
         "label": "お問い合わせ",
-        "summary": "公開前にownerのフィードバック窓口を確認します。"
+        "summary": "お問い合わせフォームをご利用ください。返信先は任意です。秘密情報は送らないでください。"
       }
     },
     "en": {
@@ -154,11 +154,11 @@
       },
       "privacy": {
         "label": "Privacy",
-        "summary": "No actual-account or customer data is acquired."
+        "summary": "The common HAT Inc. privacy policy applies to inquiries and reports."
       },
       "contact": {
         "label": "Contact",
-        "summary": "The owner feedback channel will be confirmed before publication."
+        "summary": "Use the contact form. Reply email is optional. Do not send confidential information."
       }
     }
   }
