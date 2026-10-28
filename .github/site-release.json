@@ -24,5 +24,9 @@
       "deploymentEnabled": true,
       "documentDirectory": "site"
     }
+  ],
+  "requiredChecks": [
+    "repository-policy",
+    "site (semantic-language)"
   ]
 }
